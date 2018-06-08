@@ -7,6 +7,10 @@ public class Controller {
 
     private Mode mode;
 
+    public Controller(){
+        mode = null;
+    }
+
     public Mode getMode() {
         return mode;
     }
@@ -14,7 +18,7 @@ public class Controller {
     public void setMode(Mode mode) {
         this.mode = mode;
     }
-    
+
     public void ButtonClone(ActionEvent actionEvent) {
     }
 
@@ -41,6 +45,18 @@ public class Controller {
     }
 
     public void CLickPane(MouseEvent mouseEvent) {
+        switch (mode){
+            case RECTANGLE:
+                break;
+            case ELLIPSE:
+                break;
+            case LINE:
+                break;
+            case SELECT:
+                break;
+                default:
+                    break;
+        }
     }
 
     public void DragPane(MouseEvent mouseEvent) {
