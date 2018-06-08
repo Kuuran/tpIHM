@@ -78,7 +78,7 @@ public class Controller {
 
         switch (mode){
             case RECTANGLE:
-                Rectangle rectangle = new Rectangle(pos_x, pos_y, 30, 15);
+                Rectangle rectangle = new Rectangle(pos_x, pos_y, 30, 15); //todo
                 break;
             case ELLIPSE:
                 break;
